@@ -1,3 +1,7 @@
 .container {
 	width: 1160px;
 }
+
+body {
+	background-image: url("../fonts/subtle_dots.png");
+}
