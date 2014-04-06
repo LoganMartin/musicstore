@@ -1,0 +1,13 @@
+#control-panel {
+	width: 350px;
+	margin: 50px auto 20px;
+}
+
+#control-panel button {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#control-panel h2 {
+	margin-bottom: 25px;
+}

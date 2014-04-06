@@ -1,0 +1,37 @@
+#form-container {
+	width: 650px;
+	margin: 50px auto 20px;
+	padding-bottom: 0px;
+}
+
+#alert-container {
+	width: 650px;
+	margin: -9px auto -45px;
+	
+}
+
+.modal-body button {
+	padding: 35px;
+	font-size: 20px;
+}
+
+#balance-value {
+	display: inline;
+}
+
+.row {
+	margin: 0px auto;
+}
+.panel {
+	margin-top: 50px;
+	margin-left: 85px;
+	max-width: 376px;
+}
+ 
+.panel-body button {
+	width: 100%;
+}
+
+#fund-btn {
+	margin-bottom: 15px;
+}
