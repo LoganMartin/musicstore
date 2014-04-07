@@ -29,7 +29,7 @@
 		}
 		else { 
 			$hashword = password_hash($password, PASSWORD_BCRYPT);
-			$insert = "INSERT INTO user (username, name, password) 
+			$insert = "INSERT INTO user (username, fullname, password) 
 						VALUES ('$username', '$name', '$hashword')";
 						
 			if(!mysql_query($insert, $connection)) {
