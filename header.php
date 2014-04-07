@@ -20,7 +20,7 @@
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
 						<li><a href="library.php">My Library</a></li>
-						<li><a href="musicsearch.php">Find Music</a></li>
+						<li><a href="store.php">Store</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li id="account-dropdown" class="dropdown">
@@ -31,9 +31,7 @@
 											if($_SESSION['usertype'] == "admin") {
 												echo '<li id="accountLink"><a href="managestore.php">Manage Store</a></li>';
 											}
-											else {
-												echo '<li id="accountLink"><a href="managewallet.php">Manage Account</a></li>';
-											} 
+											echo '<li id="accountLink"><a href="managewallet.php">Manage Account</a></li>';
 										  	echo '<li id="logoutLink"><a href="login.php">Logout</a></li>
 										  </ul>';
 

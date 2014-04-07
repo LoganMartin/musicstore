@@ -1,0 +1,11 @@
+.input-group {
+	width: 300px;
+}
+
+#results-table th {
+	cursor: pointer; cursor: hand;
+}
+
+.artist-cell {
+	cursor: pointer; cursor: hand;
+}
